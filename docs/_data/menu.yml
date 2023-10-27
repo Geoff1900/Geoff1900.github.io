@@ -1,6 +1,16 @@
 - label: Software development handbook
   items:
     - name: Home
-      link: /
-    - name: Engineering checklists
+      link: /index
+    - name: getting started
+      link: /get-started
+    - name: planning your work
+      link: /plan-your-work
+    - name: structure of your team
+      link: /plan-your-work      
+    - name: automated testing
+      link: /automated-testing
+    - name: checklists
       link: /checklists
+    - name: test
+      link: /test

@@ -1,7 +1,9 @@
 ---
-title: Software engineering handbook
+title: about this playbook
+permalink: /
 show_sidebar: true
 menubar: menu
+nav_order: 1
 ---
 
 Yes, This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

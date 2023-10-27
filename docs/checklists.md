@@ -1,5 +1,5 @@
 ---
-title: Engineering checklists
+title: checklists
 permalink: /checklists/
 show_sidebar: true
 menubar: menu
