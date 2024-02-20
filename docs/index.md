@@ -24,9 +24,9 @@ gantt
     Issue Deprecation notice: milestone, done,  legacy1, 2020-09-01, 1d
     Available for use, no new integrations: done, legacy2, after legacy1, 365d
     section Deprecated
-    Deprecated: milestone, done, deprecated1, startdate 2021-03-01, 1d
+    Deprecated: milestone, done, deprecated1, startdate 2021-09-01, 1d
     section Retired
-    Retired: milestone, done, retired, after legacy2 ,1d
+    Retired: milestone, done, retired, startdate 2022-03-01, 1d
 
 ```
 
