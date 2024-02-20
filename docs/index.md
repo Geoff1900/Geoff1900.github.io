@@ -9,15 +9,14 @@ nav_order: 1
 Yes, This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 ```mermaid
-journey
-    title Retirement timeline
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+timeline
+    title Example retirement timeline
+    01/01/2010 : Alpha
+    01/03/2010 : Beta
+    01/06/2010 : Stable
+    01/09/2020 Deprecation Notice: Legacy
+    01/09/2021 Deprecation Date: Deprecated
+    01/03/2022 Retirement Date: Retired
 ```
 
 You can find the source code for Minima at GitHub:.
