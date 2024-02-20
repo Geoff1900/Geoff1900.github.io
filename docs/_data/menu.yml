@@ -2,15 +2,10 @@
   items:
     - name: Home
       link: /index
-    - name: getting started
-      link: /get-started
-    - name: planning your work
-      link: /plan-your-work
-    - name: structure of your team
-      link: /plan-your-work      
-    - name: automated testing
-      link: /automated-testing
+    - name: how to write a sad
+      link: /how-to-write-a-sad
+    - name: how to write a user story
+      link: /how-to-write-a-user-story
     - name: checklists
       link: /checklists
-    - name: test
-      link: /test
+
