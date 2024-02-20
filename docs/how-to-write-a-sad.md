@@ -23,8 +23,8 @@ gantt
     Available for use but no new integrations: active, legacy2,  01-09-2020, 365d
 
     section Deprecated
-    Deprecated date: active,  milestone, dep1, after legacy2
-    Deprecation period, Available for use but no new integrations: active, dep2  01-09-2020, 180d
+    Deprecated date: active,  milestone, dep1, after legacy2, 01-09-2020, 
+    Deprecation period, Available for use but no new integrations: active, dep2, 01-09-2020  180d
 
     section Retired
     No new integrations allowed: active,  ret1,  01-03-2020
