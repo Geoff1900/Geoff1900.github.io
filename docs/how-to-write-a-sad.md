@@ -5,6 +5,34 @@ show_sidebar: true
 menubar: menu
 nav_order: 2
 ---
+```mermaid
+%%{init: { 'theme': 'simple' }}%%
+gantt
+    title API Lifecycle
+    dateFormat  DD-MM-YYY
+
+    section Alpha
+    Develop Alpha version          :done,    alpha1, 2020-01-01, 30d
+
+    section Beta
+    Develop Beta version           :active,  beta1, after alpha1, 60d
+
+    section Stable
+    Develop Stable version         :active,  stable1, after beta1, 90d
+
+    section Legacy
+    Develop Legacy version         :active,  legacy1, after stable1, 30d
+
+    section Deprecated
+    Develop Deprecated version     :active,  deprecated1, after legacy1, 30d
+    Deprecated notice issued       :active,  deprecatedNotice, 2020-09-01, 365d
+
+    section Retired
+    No new integrations allowed    :active,  noNewIntegrations, 2021-09-01, 180d
+    Retire API                      :active,  retired, 2022-03-01, 7d
+
+```
+
 
 # API Lifecycle Timeline
 
