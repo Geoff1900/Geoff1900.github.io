@@ -4,5 +4,5 @@ title: welcome to Geoff1900's HomePage
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "10.8.0"
+  version: "9.1.3"
 
