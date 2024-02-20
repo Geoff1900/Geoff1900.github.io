@@ -1,6 +1,5 @@
 ---
 title: How to write a Solutions Architecture Design document
-permalink: /
 show_sidebar: true
 menubar: menu
 nav_order: 2
