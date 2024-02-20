@@ -16,6 +16,7 @@ sequenceDiagram
     Alpha->>Beta: Develop Alpha version
     Alpha->>Beta: Develop Alpha version
     Beta-->>Stable: Alpha version ready
+    Stable-->>Legacy: Alpha version ready
 
     Developer->>API: Develop Beta version
     API-->>Developer: Beta version ready
