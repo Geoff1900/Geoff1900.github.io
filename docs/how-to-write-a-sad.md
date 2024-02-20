@@ -12,7 +12,7 @@ gantt
     dateFormat  DD-MM-YYYY
 
     section Alpha
-    Develop Alpha version: done,    alpha1, 2019-01-01, 30d
+    Develop Alpha version: done,    alpha1, 01-01-2019, 30d
 
     section Beta
     Develop Beta version: done,  beta1, after alpha1, 60d
@@ -21,15 +21,15 @@ gantt
     Develop Stable version: done,  stable1, after beta1, 90d
 
     section Legacy
-    Deprecated notice issued: active,  milestone, 2020-09-01
-    Variable notice period, available for use, no new integrations: active,  2020-09-01, 365d
+    Deprecated notice issued: active,  milestone, 01-09-2020
+    Variable notice period, Available for use but no new integrations: active,  01-09-2020, 365d
 
     section Deprecated
-    Develop Deprecated version: active,  deprecated1, after legacy1, 30d
-    Deprecated notice issued: active,  milestone, 2020-09-01
+    Deprecated date: active,  milestone, 01-09-2021
+    Deprecation period, Available for use but no new integrations: active,  01-09-2020, 180d
 
     section Retired
-    No new integrations allowed: active,  noNewIntegrations, 2021-09-01, 180d
+    No new integrations allowed: active,  noNewIntegrations, 01-03-2020
     Retire API: active,  retired, 2022-03-01, 7d
 
 ```
