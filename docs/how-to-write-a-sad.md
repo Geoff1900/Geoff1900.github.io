@@ -11,26 +11,24 @@ gantt
     title API Lifecycle
     dateFormat  DD-MM-YYYY
 
-    section Alpha
-    Develop Alpha version: done,    alpha1, 01-01-2019, 30d
-
-    section Beta
-    Develop Beta version: done,  beta1, after alpha1, 60d
+    section Dev
+    Develop Alpha version: done,  dev1, 01-01-2019, 30d
+    Develop Beta version: done,  dev2, dev1 alpha1, 60d
 
     section Stable
-    Develop Stable version: done,  stable1, after beta1, 90d
+    Develop Stable version: done,  stable1, after dev2, 90d
 
     section Legacy
-    Deprecated notice issued: active,  milestone, 01-09-2020
-    Variable notice period, Available for use but no new integrations: active,  01-09-2020, 365d
+    Deprecated notice issued: active,  legacy1, milestone, 01-09-2020
+    Available for use but no new integrations: active, legacy2,  01-09-2020, 365d
 
     section Deprecated
-    Deprecated date: active,  milestone, 01-09-2021
-    Deprecation period, Available for use but no new integrations: active,  01-09-2020, 180d
+    Deprecated date: active,  milestone, dep1, after legacy2
+    Deprecation period, Available for use but no new integrations: active, dep2  01-09-2020, 180d
 
     section Retired
-    No new integrations allowed: active,  noNewIntegrations, 01-03-2020
-    Retire API: active,  retired, 2022-03-01, 7d
+    No new integrations allowed: active,  ret1,  01-03-2020
+    Retire API: active,  ret2, milestone 2022-03-01, 7d
 
 ```
 
