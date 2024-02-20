@@ -6,7 +6,7 @@ menubar: menu
 nav_order: 2
 ---
 ```mermaid
-%%{init: { 'theme': 'note' }}%%
+%%{init: { 'theme': 'default' }}%%
 gantt
     title API Lifecycle
     dateFormat  DD-MM-YY
@@ -25,7 +25,7 @@ gantt
 
     section Deprecated
     Develop Deprecated version:active,  deprecated1, after legacy1, 30d
-    Deprecated notice issued:active,  deprecatedNotice, 2020-09-01, 365d
+    Deprecated notice issued:active,  milestone, 2020-09-01
 
     section Retired
     No new integrations allowed:active,  noNewIntegrations, 2021-09-01, 180d
