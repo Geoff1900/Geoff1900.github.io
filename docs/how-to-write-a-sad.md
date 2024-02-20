@@ -1,5 +1,5 @@
 ---
-title: how to write a solutions architecture 
+title: how to write a SAD 
 permalink: /how-to-write-a-sad/
 show_sidebar: true
 menubar: menu
