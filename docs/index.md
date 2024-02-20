@@ -13,8 +13,9 @@ sequenceDiagram
     participant API
     participant Developer
 
-    Developer->>API: Develop Alpha version
-    API-->>Developer: Alpha version ready
+    Alpha->>Beta: Develop Alpha version
+    Alpha->>Beta: Develop Alpha version
+    Beta-->>Stable: Alpha version ready
 
     Developer->>API: Develop Beta version
     API-->>Developer: Beta version ready
