@@ -1,5 +1,5 @@
 ---
-title: How to write a User Story
+title: how to write a user story
 permalink: /how-to-write-a-user-story/
 show_sidebar: true
 menubar: menu
