@@ -28,6 +28,7 @@ sequenceDiagram
 
     Developer->>API: Retire API on 01/03/2022
     API-->>Developer: API retired
+```
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
