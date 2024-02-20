@@ -1,5 +1,5 @@
 ---
-title: about this playbook
+title: how to retire an API
 permalink: /
 show_sidebar: true
 menubar: menu
