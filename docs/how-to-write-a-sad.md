@@ -13,13 +13,13 @@ gantt
 
     section Dev
     Develop Alpha version: done,  dev1, 01-01-2019, 30d
-    Develop Beta version: done,  dev2, dev1 alpha1, 60d
+    Develop Beta version: done,  dev2, after dev1 alpha1, 60d
 
     section Stable
     Develop Stable version: done,  stable1, after dev2, 90d
 
     section Legacy
-    Deprecated notice issued: active,  legacy1, milestone, 01-09-2020
+    Deprecated notice issued: active, legacy1, milestone, 01-09-2020
     Available for use but no new integrations: active, legacy2,  01-09-2020, 365d
 
     section Deprecated
