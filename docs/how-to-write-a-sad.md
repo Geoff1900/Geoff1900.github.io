@@ -1,5 +1,5 @@
 ---
-title: How to write a Solutions Architecture Design document
+title: how to write a solutions architecture 
 permalink: /how-to-write-a-sad/
 show_sidebar: true
 menubar: menu
