@@ -1,7 +1,7 @@
 ---
 title: How to write a Solutions Architecture Design document
-show_sidebar: true
 permalink: /how-to-write-a-sad/
+show_sidebar: true
 menubar: menu
 nav_order: 2
 ---
