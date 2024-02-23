@@ -57,7 +57,7 @@ plugins:
 #   - vendor/ruby/
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dhcw
+color_scheme: dark
 
 mermaid:
   version: "9.1.3"
